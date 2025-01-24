@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../widgets/categories_listview.dart';
 import '../widgets/custom_appbar.dart';
 import '../widgets/custom_button.dart';

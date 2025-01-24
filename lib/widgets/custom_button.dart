@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
@@ -18,7 +17,8 @@ class CustomButton extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
         ),
-        onPressed: onPressed,child: Text(title,style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),),),
+        onPressed: onPressed,child: Text(title,style: TextStyle(
+          fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),),),
     );
   }
 }
